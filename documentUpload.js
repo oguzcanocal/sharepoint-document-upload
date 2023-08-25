@@ -1,5 +1,7 @@
 //GEREKLİLİKLER;
 //-- Kodu çalıştırmadan önce Sharepoint'te SiteAssets adında bir döküman kütüphanesi oluşturulmalıdır.
+//-- NewItem.aspx'te bulunan SITEURL ve ListID parametrelerinin sharepointte göre konfigurasyonu yapılmalıdır.
+//-- NewItem.aspx'in kullanılacağı listeye "Imagepath" adında bir site column eklenmelidir.
 
 //KODUN ÇALIŞMA PRENSİBİ:
 //-- NewItem.aspx sayfasına eklediğimiz file inputtan(ID = "getFile") yüklediğin görseli alıp Sharepointte SiteAssets altına kaydetmektedir.
